@@ -10,10 +10,41 @@
 	<link rel="me" href="skype:elon.musk">
   	<link rel="me" href="tel:650-681-5000">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.1/dist/semantic.min.css">
+	<style type="text/css">
+		body, h3 {
+			color: #4F5356;
+		}
+		p, h3, h4, i {
+			font-family: courier;
+		}
+		h3:hover, h4:hover {
+			color: #0099e6;
+		}
+		#page {
+			background-color: #EDEDED;
+		}
+		#divider {
+			height: 5px;
+			background-color: #0099e6;
+		}
+		#face {
+			border: solid 3px #4F5356;
+		}
+		#face:hover {
+			border: solid 3px #0099e6;
+		}
+		.titles {
+			color: #0099e6;
+			font-size: 20px;
+		}
+		.titles:hover {
+			color: #4F5356;
+		}
+	</style>
 </head>
 <body>
 	<div class="ui container">
-		<div class="ui segment">
+		<div class="ui segment" id="page">
 			<div class="ui basic segment">
 				<div class="ui grid">
 					<div class="five wide right aligned column">
@@ -58,11 +89,11 @@
 						</div>
 					</div>
 				</div>
-				<div class="ui divider"></div>
+				<div class="ui divider" id="divider"></div>
 				<div class="ui basic padded left aligned segment grid">
 					<div class="ui row">
 						<div class="four wide center aligned column">
-							<p>_Personal Profile</p>
+							<p class="titles">_Personal Profile</p>
 						</div>
 						<div class="twelve wide column">
 							<p>Aiming to reduce global warming through sustainable energy production and consumption, and reducing the "risk of human extinction" by "making life multi-planetary" and setting up a human colony on Mars.</p>
@@ -71,7 +102,7 @@
 					<div class="ui divider"></div>
 					<div class="ui row">
 						<div class="four wide center aligned column">
-							<p>_Work Experience</p>
+							<p class="titles">_Work Experience</p>
 						</div>
 						<div class="twelve wide column">
 							<div class="ui list">
@@ -101,7 +132,7 @@
 					<div class="ui divider"></div>
 					<div class="ui row">
 						<div class="four wide center aligned column">
-							<p>_Skills &amp Competences</p>
+							<p class="titles">_Skills &amp Competences</p>
 						</div>
 						<div class="twelve wide column">
 							<div class="ui three column grid">
@@ -121,7 +152,7 @@
 					<div class="ui divider"></div>
 					<div class="ui row">
 						<div class="four wide center aligned column">
-							<p>_Education</p>
+							<p class="titles">_Education</p>
 						</div>
 						<div class="twelve wide column">
 							<div class="ui two column grid">
@@ -143,7 +174,7 @@
 					<div class="ui divider"></div>
 					<div class="ui row">
 						<div class="four wide center aligned column">
-							<p>_Interests</p>
+							<p class="titles">_Interests</p>
 						</div>
 						<div class="twelve wide column">
 							<div class="ui three column grid">
